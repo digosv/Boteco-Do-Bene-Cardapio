@@ -7,11 +7,13 @@
     <link rel="shortcut icon" href="/assets/iconbgr.png" type="image/x-icon">
     <title>Boteco Do Bene</title>
 </head>
-<body class="bg-amber-200 h-full w-full text-white">
+<body class="bg-gray-100 h-full w-full text-white overflow-hidden">
     <div class="">
         <div class="bg-red-500 p-8 shadow-lg flex items-center">
             <button class="rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                <img class="w-16 h-auto" src="./assets/iconbgr.png" alt="">
+                <a href="./index.html">
+                    <img class="w-16 h-auto " src="./assets/iconbgr.png" href="./index.html" alt="">
+                </a>
             </button>
             <div>
                 <h1 class="text-3xl text-white font-thin">Boteco do Bene</h1>
@@ -19,15 +21,44 @@
             </div>
         </div>
         <div class="">
-            <ul class="text-1xl text-black grid grid-flow-col auto-cols-max w-full m-3 overflow-x-auto overscroll-contain md:text-2xl ">
-                <a class="border-4 rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="bolinhos.html" target="_self">Bolinhos</a>
-                <a class="border-4 rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="porcaoquente.html" target="_self">Porções Quentesw</a>
-                <a class="border-4 rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="porcaofria.html" target="_self">Porções Frias</a>
-                <a class="border-4 rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="drinks.html" target="_self">Drinks</a>
-                <a class="border-4 rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="cervejas.html" target="_self">Cervejas</a>
-                <a class="border-4 rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="bebidasquentes.html" target="_self">Bebidas Quentes</a>
+            <ul class="text-1xl text-black grid grid-flow-col auto-cols-max w-full m-3 overflow-x-auto overscroll-contain md:text-1xl ">
+                <a class="border-4 bg-white rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="bolinhos.html" target="_self">Bolinhos</a>
+                <a class="border-4 bg-white rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="porcaoquente.html" target="_self">Porções Quentes</a>
+                <a class="border-4 bg-white rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="porcaofria.html" target="_self">Porções Frias</a>
+                <a class="border-4 bg-white rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="drinks.html" target="_self">Drinks</a>
+                <a class="border-4 bg-white rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="cervejas.html" target="_self">Cervejas</a>
+                <a class="border-4 bg-white rounded-full m-3 shadow-lg md:mr-10 md:p-3" href="bebidasquentes.html" target="_self">Bebidas Quentes</a>
             </ul>
         </div>
+        <div class="container m-6 p-4 text-black ">
+            <div class="grid grid-cols-2 ">
+                <div class=" p-4 w-36 bg-white border-2 rounded-3xl shadow-md">
+                    <img class="w-32 bg-green-400" onclick="openModal('Caipirinha De Morango','Caipirinha de Morango com as opções de Pinga, Cachaça, Vodka e Saque','./assets/WhatsApp Image 2024-07-03 at 09.20.07.jpeg')" src="./assets/WhatsApp Image 2024-07-03 at 09.20.07.jpeg" alt="">
+                    <div class="p-4">
+                        <h3 class="font-bold">Capirinha</h3>
+                        <h4>Morango</h4>
+                        <h5>R$ 25,00</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
+
+    <div id="modal" class="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center hidden">
+        <div class="bg-gray-800 rounded-lg overflow-hidden max-w-md mx-auto">
+            <div class="relative">
+                <img id="modal-image" src="" alt="" class="w-full h-64 object-cover">
+                <button class="absolute top-0 right-0 m-2 text-white bg-gray-800 rounded-full p-1 focus:outline-none" onclick="closeModal()">✕</button>
+            </div>
+            <div class="p-4">
+                <h3 id="modal-title" class="text-xl font-semibold text-darktext"></h3>
+                <p id="modal-description" class="mt-2 text-gray-400"></p>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
