@@ -10,7 +10,7 @@ const Buttons = () => {
     <div className="rounded-3xl text-1xl bg-white text-black grid grid-flow-col auto-cols-max w-5/7 mt-5 mr-2 ml-2 overflow-x-auto overscroll-contain md:text-1xl md:items-center md:justify-center shadow-lg">
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -26,7 +26,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -42,7 +42,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -58,7 +58,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -74,7 +74,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -90,7 +90,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -106,7 +106,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
@@ -122,7 +122,7 @@ const Buttons = () => {
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
+        whileTap={{ scale: 0.8 }}
         className="p-1 m-3"
       >
         <Link
