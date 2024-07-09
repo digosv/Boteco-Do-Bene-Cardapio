@@ -8,6 +8,9 @@ import Cervejas from './components/Cervejas'
 
 
 function App() {
+
+
+  
   return (
     <Router>
     <div className='bg-amber-100 pt-24 min-h-screen'>

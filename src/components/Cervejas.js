@@ -16,7 +16,7 @@ import serramalte from '../assets/cervejas/serramalte.webp';
 
 const Cervejas = () => {
     return (
-        <div className="grid grid-cols-2 ml-4 md:grid-cols-5">
+        <div className="grid grid-cols-2  ml-4 md:grid-cols-5">
            <MenuOption local={heineken} nome="Heineken" preco='R$ 18,00'></MenuOption> 
            <MenuOption local={original} nome="Original" preco='R$ 15,00'></MenuOption>
            <MenuOption local={spaten} nome="Spaten" preco='R$ 15,00'></MenuOption>
