@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Boteco-Do-Bene-Cardapio/static/css/main.d8adc8ba.css",
-    "main.js": "/Boteco-Do-Bene-Cardapio/static/js/main.0e803c69.js",
+    "main.js": "/Boteco-Do-Bene-Cardapio/static/js/main.e754f048.js",
     "static/js/453.411ee32c.chunk.js": "/Boteco-Do-Bene-Cardapio/static/js/453.411ee32c.chunk.js",
     "static/media/imperiolager.png": "/Boteco-Do-Bene-Cardapio/static/media/imperiolager.ed8b41cd7ab94db1bf82.png",
     "static/media/pastelzinho.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/pastelzinho.41210689d0d7eb688c43.jpeg",
@@ -19,11 +19,11 @@
     "static/media/original.avif": "/Boteco-Do-Bene-Cardapio/static/media/original.d404d5756000a45678a3.avif",
     "index.html": "/Boteco-Do-Bene-Cardapio/index.html",
     "main.d8adc8ba.css.map": "/Boteco-Do-Bene-Cardapio/static/css/main.d8adc8ba.css.map",
-    "main.0e803c69.js.map": "/Boteco-Do-Bene-Cardapio/static/js/main.0e803c69.js.map",
+    "main.e754f048.js.map": "/Boteco-Do-Bene-Cardapio/static/js/main.e754f048.js.map",
     "453.411ee32c.chunk.js.map": "/Boteco-Do-Bene-Cardapio/static/js/453.411ee32c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8adc8ba.css",
-    "static/js/main.0e803c69.js"
+    "static/js/main.e754f048.js"
   ]
 }
