@@ -78,6 +78,22 @@ const Buttons = () => {
         className="p-1 m-3"
       >
         <Link
+          to="/lanches"
+          className={`text-1xl p-1  ${
+            location.pathname === "/lanches"
+              ? "bg-red-500 rounded-3xl text-white p-3"
+              : ""
+          }`}
+        >
+          Lanches
+        </Link>
+      </motion.div>
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.8 }}
+        className="p-1 m-3"
+      >
+        <Link
           to="/drinks"
           className={`text-1xl p-1  ${
             location.pathname === "/drinks"
@@ -102,22 +118,6 @@ const Buttons = () => {
           }`}
         >
           Cervejas
-        </Link>
-      </motion.div>
-      <motion.div
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.8 }}
-        className="p-1 m-3"
-      >
-        <Link
-          to="/bebidasquentes"
-          className={`text-1xl p-1  ${
-            location.pathname === "/bebidasquentes"
-              ? "bg-red-500 rounded-3xl text-white p-3"
-              : ""
-          }`}
-        >
-          Bebidas Quentes
         </Link>
       </motion.div>
       <motion.div
