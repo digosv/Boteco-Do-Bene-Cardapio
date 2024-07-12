@@ -1,6 +1,7 @@
 import React from "react";
 import MenuOption from "./MenuOption";
-import croquetacupim from "../assets/bolinhos/cupim.jpeg";
+import croquetacupim from "../assets/bolinhos/cupim3.jpeg";
+import shimeji from "../assets/bolinhos/shimeji2.jpeg";
 
 const Bolinhos = () => {
   return (
@@ -10,7 +11,11 @@ const Bolinhos = () => {
         nome="Croqueta de Cupim"
         preco="R$ 13,00"
       ></MenuOption>
-      <MenuOption nome="Croqueta de Shimeji" preco="R$ 13,00"></MenuOption>
+      <MenuOption
+        local={shimeji}
+        nome="Croqueta de Shimeji"
+        preco="R$ 13,00"
+      ></MenuOption>
       <MenuOption nome="Croqueta de Mortadela" preco="R$ 13,00"></MenuOption>
       <MenuOption nome="Linguiça Com Queijo" preco="R$ 13,00"></MenuOption>
       <MenuOption nome="Bolovo" preco="R$ 15,00"></MenuOption>
