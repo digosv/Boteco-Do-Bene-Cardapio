@@ -14,6 +14,7 @@ import spaten from "../assets/cervejas/spaten.webp";
 import stella from "../assets/cervejas/stella.png";
 import serramalte from "../assets/cervejas/serramalte.webp";
 import heinekenlongneck from "../assets/cervejas/heinekenlongneck.png";
+//a
 
 const Cervejas = () => {
   return (
@@ -22,6 +23,7 @@ const Cervejas = () => {
         local={heineken}
         nome="Heineken"
         preco="R$ 18,00"
+        descricao="Heineken 600ml"
       ></MenuOption>
       <MenuOption
         local={original}
