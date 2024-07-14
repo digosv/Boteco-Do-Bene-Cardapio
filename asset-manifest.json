@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Boteco-Do-Bene-Cardapio/static/css/main.8dce8f57.css",
-    "main.js": "/Boteco-Do-Bene-Cardapio/static/js/main.4f639b0f.js",
+    "main.css": "/Boteco-Do-Bene-Cardapio/static/css/main.47df71ba.css",
+    "main.js": "/Boteco-Do-Bene-Cardapio/static/js/main.fe905ed4.js",
     "static/js/453.411ee32c.chunk.js": "/Boteco-Do-Bene-Cardapio/static/js/453.411ee32c.chunk.js",
     "static/media/imperiolager.png": "/Boteco-Do-Bene-Cardapio/static/media/imperiolager.ed8b41cd7ab94db1bf82.png",
+    "static/media/icon2.jpg": "/Boteco-Do-Bene-Cardapio/static/media/icon2.7dd477495862f025bed5.jpg",
     "static/media/shimeji2.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/shimeji2.9e8c128725ccf26dec36.jpeg",
     "static/media/iscadefrango.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/iscadefrango.40d30816c592999743e3.jpeg",
     "static/media/pastelzinho.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/pastelzinho.41210689d0d7eb688c43.jpeg",
     "static/media/batatadobene.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/batatadobene.7766a5f4c3c5d4a09719.jpeg",
+    "static/media/frontbar.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/frontbar.a21431d2c589d8c033a6.jpeg",
     "static/media/cupim3.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/cupim3.892eee60fb73d63a785c.jpeg",
     "static/media/stella.png": "/Boteco-Do-Bene-Cardapio/static/media/stella.15028df9e6a26a1a610e.png",
     "static/media/spaten.webp": "/Boteco-Do-Bene-Cardapio/static/media/spaten.eb4b4495863b8ea25921.webp",
@@ -21,12 +23,12 @@
     "static/media/serramalte.webp": "/Boteco-Do-Bene-Cardapio/static/media/serramalte.2bb464ec7c19d0edf5ca.webp",
     "static/media/original.avif": "/Boteco-Do-Bene-Cardapio/static/media/original.d404d5756000a45678a3.avif",
     "index.html": "/Boteco-Do-Bene-Cardapio/index.html",
-    "main.8dce8f57.css.map": "/Boteco-Do-Bene-Cardapio/static/css/main.8dce8f57.css.map",
-    "main.4f639b0f.js.map": "/Boteco-Do-Bene-Cardapio/static/js/main.4f639b0f.js.map",
+    "main.47df71ba.css.map": "/Boteco-Do-Bene-Cardapio/static/css/main.47df71ba.css.map",
+    "main.fe905ed4.js.map": "/Boteco-Do-Bene-Cardapio/static/js/main.fe905ed4.js.map",
     "453.411ee32c.chunk.js.map": "/Boteco-Do-Bene-Cardapio/static/js/453.411ee32c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dce8f57.css",
-    "static/js/main.4f639b0f.js"
+    "static/css/main.47df71ba.css",
+    "static/js/main.fe905ed4.js"
   ]
 }
