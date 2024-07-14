@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
+import HomePage from "./components/HomePage";
 import Buttons from "./components/Buttons";
 import Header from "./components/Header";
 import PorcoesQuentes from "./components/PorcoesQuentes";
@@ -19,7 +20,22 @@ function App() {
       <div className="bg-amber-100 pt-24 min-h-screen">
         <Header />
         <Buttons />
+
         <Routes>
+          <Route
+            path="/"
+            element={
+              <motion.div
+                key="homepage"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+              >
+                <HomePage />
+              </motion.div>
+            }
+          ></Route>
           <Route
             path="/bolinhos"
             element={
