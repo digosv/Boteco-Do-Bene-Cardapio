@@ -14,22 +14,6 @@ const Buttons = () => {
         className="p-1 m-3"
       >
         <Link
-          to="/menuprincipal"
-          className={`text-1xl p-1 ${
-            location.pathname === "/menuprincipal"
-              ? "bg-red-500 rounded-3xl text-white p-3"
-              : ""
-          }`}
-        >
-          Menu Principal
-        </Link>
-      </motion.div>
-      <motion.div
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.8 }}
-        className="p-1 m-3"
-      >
-        <Link
           to="/bolinhos"
           className={`text-1xl p-1 ${
             location.pathname === "/bolinhos"
