@@ -23,7 +23,7 @@ function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/Boteco-Do-Bene-Cardapio/"
             element={
               <motion.div
                 key="homepage"

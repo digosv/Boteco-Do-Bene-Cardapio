@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "../assets/icon2.jpg";
 import front from "../assets/frontbar.jpeg";
-import Test from "../components/Test";
+import FuncionTime from "../components/FunctionTime";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen mt-4 h-96 w-80  justify-center ml-5">
+    <div className="h-96 mt-4  w-screen justify-center ">
       <div className="flex items-center justify-center ">
         <img
-          className="border-white border-2 rounded-3xl w-64 shadow-2xl"
+          className="border-white border-2 rounded-3xl w-64 shadow-2xl "
           src={front}
           alt=""
         ></img>
@@ -18,7 +18,7 @@ const HomePage = () => {
           alt=""
         ></img>
       </div>
-      <div className="bg-white mt-9 h-72 rounded-3xl shadow-2xl abs">
+      <div className="bg-white mt-9 h-64 rounded-3xl shadow-2xl abs m-3">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl text-black font-medium- p-5">
             Boteco Do Bene
@@ -29,11 +29,11 @@ const HomePage = () => {
         <p className="p-5">
           Boteco Do Bene Bla bla bla bla bla bla bla blaa bla bla bla blaa bla
           bla bla blaa bla bla bla blaa bla bla bla blaa bla bla bla blaa bla
-          bla bla blaa bla bla bla blaa bla bla bla blaa bla bla bla bla
+          bla bla bla
         </p>
       </div>
-      <div className="bg-white rounded-3xl shadow-2xl h-24 mt-5">
-        <Test></Test>
+      <div className="bg-white rounded-3xl shadow-2xl h-24 mt-5 m-3">
+        <FuncionTime />
       </div>
     </div>
   );
