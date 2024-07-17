@@ -27,6 +27,23 @@
 .App-link {
   color: #61dafb;
 }
+/* Adicione este estilo ao seu arquivo CSS global */
+.scroll-persistent {
+  scrollbar-width: thin; /* Firefox */
+}
+
+.scroll-persistent::-webkit-scrollbar {
+  height: 10px; /* Altura da barra de rolagem */
+}
+
+.scroll-persistent::-webkit-scrollbar-thumb {
+  background: #888; /* Cor da barra de rolagem */
+  border-radius: 10px;
+}
+
+.scroll-persistent::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 @keyframes App-logo-spin {
   from {
