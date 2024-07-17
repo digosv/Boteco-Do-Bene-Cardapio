@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Boteco-Do-Bene-Cardapio/static/css/main.8d20310c.css",
-    "main.js": "/Boteco-Do-Bene-Cardapio/static/js/main.8325ccc5.js",
+    "main.css": "/Boteco-Do-Bene-Cardapio/static/css/main.85e143d6.css",
+    "main.js": "/Boteco-Do-Bene-Cardapio/static/js/main.39badb15.js",
     "static/js/453.411ee32c.chunk.js": "/Boteco-Do-Bene-Cardapio/static/js/453.411ee32c.chunk.js",
     "static/media/imperiolager.png": "/Boteco-Do-Bene-Cardapio/static/media/imperiolager.ed8b41cd7ab94db1bf82.png",
     "static/media/polvoavinagrete.jpeg": "/Boteco-Do-Bene-Cardapio/static/media/polvoavinagrete.1e34802c02b51d418790.jpeg",
@@ -24,12 +24,12 @@
     "static/media/serramalte.webp": "/Boteco-Do-Bene-Cardapio/static/media/serramalte.2bb464ec7c19d0edf5ca.webp",
     "static/media/original.avif": "/Boteco-Do-Bene-Cardapio/static/media/original.d404d5756000a45678a3.avif",
     "index.html": "/Boteco-Do-Bene-Cardapio/index.html",
-    "main.8d20310c.css.map": "/Boteco-Do-Bene-Cardapio/static/css/main.8d20310c.css.map",
-    "main.8325ccc5.js.map": "/Boteco-Do-Bene-Cardapio/static/js/main.8325ccc5.js.map",
+    "main.85e143d6.css.map": "/Boteco-Do-Bene-Cardapio/static/css/main.85e143d6.css.map",
+    "main.39badb15.js.map": "/Boteco-Do-Bene-Cardapio/static/js/main.39badb15.js.map",
     "453.411ee32c.chunk.js.map": "/Boteco-Do-Bene-Cardapio/static/js/453.411ee32c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d20310c.css",
-    "static/js/main.8325ccc5.js"
+    "static/css/main.85e143d6.css",
+    "static/js/main.39badb15.js"
   ]
 }
