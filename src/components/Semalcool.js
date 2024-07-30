@@ -16,7 +16,7 @@ import aguacomgas from "../assets/semalcool/aguacomgas.jpeg";
 
 const SemAlcool = () => {
   return (
-    <div className=" ml-3 md:grid-cols-5">
+    <div className="md:grid-cols-5">
       <MenuOption
         local={cocalata}
         nome="Coca Cola Lata"

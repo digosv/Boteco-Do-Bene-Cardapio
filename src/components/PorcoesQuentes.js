@@ -7,7 +7,7 @@ import iscadetilapia from "../assets/porcaoquente/iscadetilapia.jpeg";
 
 const PorcoesQuentes = () => {
   return (
-    <div className=" ml-3 md:grid-cols-5">
+    <div className="md:grid-cols-5">
       <MenuOption
         local={pastelzinho}
         nome="Pastelzinho"

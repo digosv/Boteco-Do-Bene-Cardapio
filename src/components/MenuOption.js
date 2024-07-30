@@ -15,7 +15,7 @@ function MenuOption(props) {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div class="flex justify-start p-4 w-80  overflow-hidden bg-white border-2 rounded-3xl shadow-md my-6">
+        <div class="flex items-center justify-start p-4 w-80  overflow-hidden bg-white border-2 rounded-3xl shadow-md my-6">
           <img
             onClick={openModal}
             class="w-32 items-center rounded-3xl"
@@ -38,13 +38,13 @@ function MenuOption(props) {
               <div className="relative">
                 <button
                   whileHover={{ backgroundColor: "white" }}
-                  className="absolute top-0 right-0 ml-8 text-white  rounded-full w-6 h-6 focus:outline-none"
+                  className="absolute top-0 right-0 ml-8 text-red-black rounded-full w-6 h-6 focus:outline-none"
                   onClick={closeModal}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="20"
+                    height="20"
                     fill="currentColor"
                     class="bi bi-x-circle"
                     viewBox="0 0 16 16"
