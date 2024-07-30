@@ -14,8 +14,8 @@ function MenuOption(props) {
 
   return (
     <>
-      <div>
-        <div class=" p-4 w-36 bg-white border-2 rounded-3xl shadow-md my-6 ml-2">
+      <div className="flex items-center justify-center">
+        <div class="flex justify-start p-4 w-80  overflow-hidden bg-white border-2 rounded-3xl shadow-md my-6">
           <img
             onClick={openModal}
             class="w-32 items-center rounded-3xl"
@@ -24,7 +24,7 @@ function MenuOption(props) {
           ></img>
           <div class="p-4">
             <h3 class="font-bold">{props.nome}</h3>
-            <h5>{props.preco}</h5>
+            <h5 className="">{props.preco}</h5>
           </div>
         </div>
         <div className="model">
@@ -38,10 +38,20 @@ function MenuOption(props) {
               <div className="relative">
                 <button
                   whileHover={{ backgroundColor: "white" }}
-                  className="absolute top-0 right-0 m-2 text-white bg-red-500 rounded-full w-6 h-6 focus:outline-none"
+                  className="absolute top-0 right-0 ml-8 text-white  rounded-full w-6 h-6 focus:outline-none"
                   onClick={closeModal}
                 >
-                  x
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-x-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                  </svg>
                 </button>
                 <img className="w-72 h-72" src={props.local} alt=""></img>
               </div>

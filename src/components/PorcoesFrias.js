@@ -5,7 +5,7 @@ import polvovinagrete from "../assets/porcaofria/polvoavinagrete.jpeg";
 
 const PorcoesFrias = () => {
   return (
-    <div className="grid grid-cols-2 ml-4 md:grid-cols-5">
+    <div className=" ml-3 md:grid-cols-5">
       <MenuOption
         nome="Polvo a Vinagrete"
         preco="R$ ?,00"
