@@ -5,7 +5,7 @@ import shimeji from "../assets/bolinhos/shimeji2.jpeg";
 
 const Bolinhos = () => {
   return (
-    <div className=" md:grid-cols-5">
+    <div className="md:grid-cols-5">
       <MenuOption
         local={croquetacupim}
         nome="Croqueta de Cupim"

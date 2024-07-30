@@ -18,7 +18,7 @@ import heinekenlongneck from "../assets/cervejas/heinekenlongneck.png";
 
 const Cervejas = () => {
   return (
-    <div className=" ml-3 md:grid-cols-5">
+    <div className="md:grid-cols-5">
       <MenuOption
         local={heineken}
         nome="Heineken"
